@@ -1,0 +1,478 @@
+{
+  "oxygen_flow_device": {
+      "display_name": "Oxygen Flow Device",
+      "unit": "NA", 
+      "category": "respiratory",
+      "codes": ["226732"],
+      "hold_time": 24
+  },
+  "oxygen_flow": {
+      "display_name": "Oxygen Flow",
+      "unit": "L/min",
+      "category": "respiratory", 
+      "codes": ["223834"],
+      "hold_time": 12
+  },
+  "oxygen_flow_cannula_rate": {
+      "display_name": "Oxygen Flow Rate (Additional Cannula)",
+      "unit": "L/min",
+      "category": "respiratory",
+      "codes": ["227287"],
+      "hold_time": 12
+  },
+  "oxygen_flow_rate": {
+      "display_name": "Oxygen Flow Rate",
+      "unit": "L/min",
+      "category": "respiratory",
+      "codes": ["224691"],
+      "hold_time": 12
+  },
+  "height_inch": {
+      "display_name": "Height inch",
+      "unit": "inch",
+      "category": "demographic",
+      "codes": ["226707"],
+      "hold_time": 168
+  },
+  "height_cm": {
+      "display_name": "Height cm",
+      "unit": "cm",
+      "category": "demographic",
+      "codes": ["226730"],
+      "hold_time": 168
+  },
+  "weight_kg": {
+      "display_name": "Weight kg",
+      "unit": "kg",
+      "category": "demographic",
+      "codes": ["224639", "226512"],
+      "hold_time": 72
+  },
+  "weight_lb": {
+      "display_name": "Weight lb",
+      "unit": "lb",
+      "category": "demographic",
+      "codes": ["226531"],
+      "hold_time": 72
+  },
+  "richmond_ras": {
+      "display_name": "Richmond-RAS Scale",
+      "unit": "score",
+      "category": "neurological",
+      "codes": ["228096"],
+      "hold_time": 6
+  },
+  "heart_rate": {
+      "display_name": "Heart Rate",
+      "unit": "bpm",
+      "category": "vital",
+      "codes": ["220045"],
+      "hold_time": 2
+  },
+  "sbp_arterial": {
+      "display_name": "Systolic Blood Pressure",
+      "unit": "mmHg",
+      "category": "vital",
+      "codes": ["220179", "225309", "220050", "227243", "224167"],
+      "hold_time": 2
+  },
+  "dbp_arterial": {
+      "display_name": "Diastolic Blood Pressure",
+      "unit": "mmHg",
+      "category": "vital",
+      "codes": ["225310", "224643", "227242", "220051", "220180"],
+      "hold_time": 2
+  },
+  "map": {
+      "display_name": "Mean Arterial Pressure",
+      "unit": "mmHg",
+      "category": "vital",
+      "codes": ["220181", "220052", "225312", "224322"],
+      "hold_time": 2
+  },
+  "respiratory_rate": {
+      "display_name": "Respiratory Rate",
+      "unit": "bpm",
+      "category": "vital",
+      "codes": ["220210", "224422", "224690"],
+      "hold_time": 2
+  },
+  "spo2": {
+      "display_name": "SpO2",
+      "unit": "%",
+      "category": "vital",
+      "codes": ["220277", "220227"],
+      "hold_time": 2
+  },
+  "temp_C": {
+      "display_name": "Body Temperature",
+      "unit": "°C",
+      "category": "vital",
+      "codes": ["223762"],
+      "hold_time": 6
+  },
+  "temp_F": {
+      "display_name": "Body Temperature",
+      "unit": "°F",
+      "category": "vital",
+      "codes": ["223761"],
+      "hold_time": 6
+  },
+  "temp_NA": {
+      "display_name": "Body Temperature of na unit",
+      "unit": "NA",
+      "category": "vital",
+      "codes": ["224027"],
+      "hold_time": 6
+  },
+  "cvp": {
+      "display_name": "Central Venous Pressure",
+      "unit": "mmHg",
+      "category": "hemodynamic",
+      "codes": ["220074"],
+      "hold_time": 2
+  },
+  "pap_systolic": {
+      "display_name": "Pulmonary Arterial Pressure",
+      "unit": "mmHg",
+      "category": "hemodynamic",
+      "codes": ["220059"],
+      "hold_time": 2
+  },
+  "pap_diastolic": {
+      "display_name": "Pulmonary Arterial Pressure",
+      "unit": "mmHg",
+      "category": "hemodynamic",
+      "codes": ["220060"],
+      "hold_time": 2
+  },
+  "pap_mean": {
+      "display_name": "Pulmonary Arterial Pressure",
+      "unit": "mmHg",
+      "category": "hemodynamic",
+      "codes": ["220061"],
+      "hold_time": 2
+  },
+  "cardiac_index": {
+      "display_name": "Cardiac Index",
+      "unit": "L/min/m²",
+      "category": "hemodynamic",
+      "codes": ["228368", "228177"],
+      "hold_time": 2
+  },
+  "fio2": {
+      "display_name": "FiO2",
+      "unit": "%",
+      "category": "respiratory",
+      "codes": ["223835"],
+      "hold_time": 12
+  },
+  "peep": {
+      "display_name": "PEEP",
+      "unit": "cmH2O",
+      "category": "respiratory",
+      "codes": ["220339", "224700"],
+      "hold_time": 6
+  },
+  "tidal_volume": {
+      "display_name": "Tidal Volume",
+      "unit": "mL",
+      "category": "respiratory",
+      "codes": ["224686", "224684", "224421"],
+      "hold_time": 6
+  },
+  "minute_volume": {
+      "display_name": "Minute Volume",
+      "unit": "L/min",
+      "category": "respiratory",
+      "codes": ["224687"],
+      "hold_time": 6
+  },
+  "mean_airway_pressure": {
+      "display_name": "Mean Airway Pressure",
+      "unit": "cmH2O",
+      "category": "respiratory",
+      "codes": ["224697"],
+      "hold_time": 6
+  },
+  "peak_inspiratory_pressure": {
+      "display_name": "Peak Inspiratory Pressure",
+      "unit": "cmH2O",
+      "category": "respiratory",
+      "codes": ["224695"],
+      "hold_time": 6
+  },
+  "plateau_pressure": {
+      "display_name": "Plateau Pressure",
+      "unit": "cmH2O",
+      "category": "respiratory",
+      "codes": ["224696"],
+      "hold_time": 6
+  },
+  "potassium": {
+      "display_name": "Potassium",
+      "unit": "mEq/L",
+      "category": "laboratory",
+      "codes": ["227442", "227464", "50971", "50822"],
+      "hold_time": 144
+  },
+  "sodium": {
+      "display_name": "Sodium",
+      "unit": "mEq/L",
+      "category": "laboratory",
+      "codes": ["220645", "226534", "50983", "50824"],
+      "hold_time": 14
+  },
+  "chloride": {
+      "display_name": "Chloride",
+      "unit": "mEq/L",
+      "category": "laboratory",
+      "codes": ["220602", "226536", "50806", "50902"],
+      "hold_time": 14
+  },
+  "glucose": {
+      "display_name": "Glucose",
+      "unit": "mg/dL",
+      "category": "laboratory",
+      "codes": ["225664", "220621", "226537", "50931", "50809"],
+      "hold_time": 14
+  },
+  "creatinine": {
+      "display_name": "Creatinine",
+      "unit": "mg/dL",
+      "category": "laboratory",
+      "codes": ["220615", "229761", "51081", "50912"],
+      "hold_time": 28
+  },
+  "magnesium": {
+      "display_name": "Magnesium",
+      "unit": "mEq/L",
+      "category": "laboratory",
+      "codes": ["220635", "50960"],
+      "hold_time": 28
+  },
+  "calcium_non_ionized": {
+      "display_name": "Calcium Non-Ionized",
+      "unit": "mg/dL",
+      "category": "laboratory",
+      "codes": ["225625"],
+      "hold_time": 28
+  },
+  "calcium_ionized": {
+      "display_name": "Calcium Ionized",
+      "unit": "mg/dL",
+      "category": "laboratory",
+      "codes": ["225667", "50808"],
+      "hold_time": 28
+  },
+  "calcium_total": {
+      "display_name": "Calcium Total",
+      "unit": "mg/dL",
+      "category": "laboratory",
+      "codes": ["50893"],
+      "hold_time": 28
+  },
+  "total_co2": {
+      "display_name": "Total CO2",
+      "unit": "mEq/L",
+      "category": "laboratory",
+      "codes": ["50804"],
+      "hold_time": 28
+  },
+  "ast": {
+      "display_name": "AST",
+      "unit": "U/L",
+      "category": "laboratory",
+      "codes": ["220587", "50878"],
+      "hold_time": 28
+  },
+  "alt": {
+      "display_name": "ALT",
+      "unit": "U/L",
+      "category": "laboratory",
+      "codes": ["220644", "50861"],
+      "hold_time": 28
+  },
+  "bilirubin_total": {
+      "display_name": "Total Bilirubin",
+      "unit": "mg/dL",
+      "category": "laboratory",
+      "codes": ["225690", "50885", "51464"],
+      "hold_time": 28
+  },
+  "bilirubin_direct": {
+      "display_name": "Direct Bilirubin",
+      "unit": "mg/dL",
+      "category": "laboratory",
+      "codes": ["225651", "50883"],
+      "hold_time": 28
+  },
+  "total_protein": {
+      "display_name": "Total Protein",
+      "unit": "g/dL",
+      "category": "laboratory",
+      "codes": ["220650", "50976"],
+      "hold_time": 28
+  },
+  "albumin": {
+      "display_name": "Albumin",
+      "unit": "g/dL",
+      "category": "laboratory",
+      "codes": ["227456", "50862"],
+      "hold_time": 28
+  },
+  "troponin": {
+      "display_name": "Troponin",
+      "unit": "ng/mL",
+      "category": "laboratory",
+      "codes": ["227429", "51003"],
+      "hold_time": 28
+  },
+  "crp": {
+      "display_name": "C-Reactive Protein",
+      "unit": "mg/dL",
+      "category": "laboratory",
+      "codes": ["227444", "50889"],
+      "hold_time": 28
+  },
+  "hemoglobin": {
+      "display_name": "Hemoglobin",
+      "unit": "g/dL",
+      "category": "laboratory",
+      "codes": ["220228", "51222", "50811"],
+      "hold_time": 14
+  },
+  "hematocrit": {
+      "display_name": "Hematocrit",
+      "unit": "%",
+      "category": "laboratory",
+      "codes": ["220545", "226540","50810", "51221"],
+      "hold_time": 28
+  },
+  "wbc": {
+      "display_name": "White Blood Cells",
+      "unit": "K/uL",
+      "category": "laboratory",
+      "codes": ["220546", "51301", "51300"],
+      "hold_time": 28
+  },
+  "red_blood_cells": {
+      "display_name": "Red Blood Cells",
+      "unit": "K/uL",
+      "category": "laboratory",
+      "codes": ["51279"],
+      "hold_time": 28
+  },
+  "platelets": {
+      "display_name": "Platelet Count",
+      "unit": "K/uL",
+      "category": "laboratory",
+      "codes": ["227457", "51265"],
+      "hold_time": 28
+  },
+  "pt": {
+      "display_name": "Prothrombin Time",
+      "unit": "s",
+      "category": "laboratory",
+      "codes": ["227465", "51274"],
+      "hold_time": 28
+  },
+  "ptt": {
+      "display_name": "Partial Thromboplastin Time",
+      "unit": "s",
+      "category": "laboratory",
+      "codes": ["227466", "51275"],
+      "hold_time": 28
+  },
+  "activated_clotting_time": {
+      "display_name": "Activated Clotting Time",
+      "unit": "s",
+      "category": "laboratory",
+      "codes": ["220507"],
+      "hold_time": 28
+  },
+  "inr": {
+      "display_name": "International Normalized Ratio",
+      "unit": "ratio",
+      "category": "laboratory",
+      "codes": ["227467", "51237"],
+      "hold_time": 28
+  },
+  "arterial_o2_pressure": {
+      "display_name": "Arterial O2 Pressure",
+      "unit": "mmHg",
+      "category": "blood_gas",
+      "codes": ["220224", "50821"],
+      "hold_time": 8
+  },
+  "arterial_co2_pressure": {
+      "display_name": "Arterial CO2 Pressure",
+      "unit": "mmHg",
+      "category": "blood_gas",
+      "codes": ["220235", "50818"],
+      "hold_time": 8
+  },
+  "arterial_base_excess": {
+      "display_name": "Arterial Base Excess",
+      "unit": "mEq/L",
+      "category": "blood_gas",
+      "codes": ["224828", "50802"],
+      "hold_time": 8
+  },
+  "lactic_acid": {
+      "display_name": "Lactic Acid",
+      "unit": "mmol/L",
+      "category": "blood_gas",
+      "codes": ["225668"],
+      "hold_time": 8
+  },
+  "hco3": {
+      "display_name": "HCO3",
+      "unit": "mEq/L",
+      "category": "blood_gas",
+      "codes": ["227443"],
+      "hold_time": 8
+  },
+  "etco2": {
+      "display_name": "ETCO2",
+      "unit": "mmHg",
+      "category": "blood_gas",
+      "codes": ["228640"],
+      "hold_time": 8
+  },
+  "central_venous_o2_saturation": {
+      "display_name": "Central Venous O2 Saturation",
+      "unit": "%",
+      "category": "blood_gas",
+      "codes": ["227686"],
+      "hold_time": 8
+  },
+  "ph_arterial": {
+      "display_name": "Arterial pH",
+      "unit": "",
+      "category": "blood_gas",
+      "codes": ["223830", "50820"],
+      "hold_time": 8
+  },
+  "lactate": {
+      "display_name": "Lactate",
+      "unit": "mmol/L",
+      "category": "laboratory",
+      "codes": ["50813"],
+      "hold_time": 8
+  },
+  "urea_nitrogen": {
+      "display_name": "Urea Nitrogen",
+      "unit": "mg/dL",
+      "category": "laboratory",
+      "codes": ["51006"],
+      "hold_time": 8
+  },
+  "gcs": {
+      "display_name": "Glasgow Coma Score",
+      "unit": "score",
+      "category": "neurological",
+      "codes": ["226755", "227013"],
+      "hold_time": 8
+  }
+}
